@@ -21,3 +21,19 @@
 	3.5 - Efeito para o tiro - FEITO
 		3.5.1 - Fazendo ele nascer grande e depois de um tempo ficar pequeno - FEITO
 	3.6 - Destruir tiro quando ele sair da tela - FEITO
+
+4 - Criando o inimigo 01
+	4.1 - Importando as sprites - FEITO
+	4.2 - Criando o objeto - FEITO
+	4.3 - Fazendo ele ir para baixo - FEITO
+	4.4 - Destruindo inimigo ao sair da room - FEITO
+
+5 - Fazendo inimigo 01 atirar
+	5.1 - Importando sprite do tiro - FEITO
+	5.2 - Criar objeto do tiro - FEITO
+	5.3 - Fazendo o tiro ir para baixo - FEITO
+	5.4 - Alinhando tiro com inimigo - FEITO
+	5.5 - Dando o efeito no tiro - FEITO
+
+6 - Fazendo o tiro do player acertar o inimigo
+	6.1 - Destruir inimigo ao ser acertado pelo laser do player - 
