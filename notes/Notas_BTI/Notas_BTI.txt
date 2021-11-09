@@ -53,7 +53,7 @@
 	9.1 - Fazendo o inimigo ser destruido ao sair da tela - FEITO
 	9.2 - Melhorando efeitos no tiro do player - FEITO
 	9.3 - Melhorias no tiro do inimigo - FEITO
-	9.4 - Melhorias nos impactos - 
+	9.4 - Melhorias nos impactos - FEITO 
 
 10 - Criando o Background
 	10.1 - Importando sprites - FEITO
