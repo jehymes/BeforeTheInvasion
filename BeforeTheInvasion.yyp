@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_background5","path":"sprites/spr_background5/spr_background5.yy",},"order":6,},
+    {"id":{"name":"spr_brilho_tiro2","path":"sprites/spr_brilho_tiro2/spr_brilho_tiro2.yy",},"order":8,},
     {"id":{"name":"obj_tiroPlayer","path":"objects/obj_tiroPlayer/obj_tiroPlayer.yy",},"order":1,},
     {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},"order":3,},
     {"id":{"name":"spr_tiroPlayer","path":"sprites/spr_tiroPlayer/spr_tiroPlayer.yy",},"order":1,},
