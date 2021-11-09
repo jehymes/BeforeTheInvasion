@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"obj_tiroPlayer","path":"objects/obj_tiroPlayer/obj_tiroPlayer.yy",},"order":1,},
+    {"id":{"name":"spr_tiroPlayer","path":"sprites/spr_tiroPlayer/spr_tiroPlayer.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"Notas_BTI","path":"notes/Notas_BTI/Notas_BTI.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},

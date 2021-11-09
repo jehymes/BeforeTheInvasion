@@ -1,8 +1,7 @@
 /// @description Player Controller
-// You can write your code in this editor
 
 //Controlle direcional da nave
-var up, down, left, right;
+var up, down, left, right, fire;
 up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
 left = keyboard_check(ord("A"));
@@ -24,4 +23,12 @@ if(x < 64){ //Checagem da esquerda
 	x = 64
 }else if(x > 1856) { //Checagem da direita
 	x = 1856
+}
+
+//------------------------------------------------------
+
+//Controle de tiro da nave
+fire = keyboard_check_pressed(vk_space);
+if(fire){
+	instance_create_layer(x, y - sprite_height/2, "Tiro", obj_tiroPlayer);
 }

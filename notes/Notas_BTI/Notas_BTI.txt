@@ -13,4 +13,8 @@
 	2.1 - Criando uma viewport e camera para o jogo - FEITO
 	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - FEITO
 	
-3 - 
+3 - Atirando!
+	3.1 - Importando sprites do tiro do player - FEITO
+	3.2 - Criando objeto do tiro do player - FEITO
+	3.3 - Fazendo o tiro ir para cima - FEITO
+	3.4 - Fazendo o jogador atirar ao apertar espaço - FEITO
