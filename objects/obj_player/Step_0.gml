@@ -2,22 +2,16 @@
 // You can write your code in this editor
 
 //Controlle direcional da nave
-if(keyboard_check(ord("W"))){
-	y -= speed_nave
-}
+var up, down, left, right;
+up = keyboard_check(ord("W"));
+down = keyboard_check(ord("S"));
+left = keyboard_check(ord("A"));
+right = keyboard_check(ord("D"));
 
-if(keyboard_check(ord("S"))){
-	y += speed_nave
-}
+y += (down - up) * speed_nave;
+x += (right - left) * speed_nave;
 
-if(keyboard_check(ord("A"))){
-	x -= speed_nave
-}
-
-if(keyboard_check(ord("D"))){
-	x += speed_nave
-}
-
+//-----------------------------------------------------
 
 //Checagem de bordas do game
 if(y > 992){ //Checagem de cima
