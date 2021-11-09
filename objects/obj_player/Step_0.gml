@@ -30,5 +30,5 @@ if(x < 64){ //Checagem da esquerda
 //Controle de tiro da nave
 fire = keyboard_check_pressed(vk_space);
 if(fire){
-	instance_create_layer(x, y - sprite_height/2, "Tiro", obj_tiroPlayer);
+	instance_create_layer(x, y - sprite_height/3, "Tiro", obj_tiroPlayer);
 }
