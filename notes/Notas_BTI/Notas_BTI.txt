@@ -2,3 +2,8 @@
 ------------------------------------ Before The Invasion -----------------------------------
 --------------------------------------------------------------------------------------------
 -------------------------------------- Notas de Criação ------------------------------------
+1 - Criando Player
+	1.1 - Importando a sprite do player - Feito
+	1.2 - Criando objeto do player -  
+2 - Criando Inimigo
+3 - Criando Boss 
