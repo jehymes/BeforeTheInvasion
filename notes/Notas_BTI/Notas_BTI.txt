@@ -46,4 +46,8 @@
 	7.2 - Destruindo o tiro do inimigo quando ele sair da room -  FEITO
 
 8 - Destruindo o inimigo quando ele levar um tiro
-	8.1 - Fazer o tiro do player tbém destruir o inimigo que colidir com ele - 
+	8.1 - Fazer o tiro do player tbém destruir o inimigo que colidir com ele - FEITO
+	8.2 - Fazer com que ao ser destruido o inimigo crie uma explosão - FEITO
+
+9 - Ajustes parte 01
+	9.1 - Fazendo o inimigo ser destruido ao sair da tela - FEITO
