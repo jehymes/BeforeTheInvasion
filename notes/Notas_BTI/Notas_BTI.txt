@@ -36,4 +36,14 @@
 	5.5 - Dando o efeito no tiro - FEITO
 
 6 - Fazendo o tiro do player acertar o inimigo
-	6.1 - Destruir inimigo ao ser acertado pelo laser do player - 
+	6.1 - Destruir inimigo ao ser acertado pelo laser do player - FEITO
+	6.2 - Criar o impacto do tiro do player - FEITO
+	6.3 - Fazer o impacto do tiro desaparecer no final da animação - FEITO
+	6.4 - Fazer o tiro NÃO criar o impacto quando ele sair da room - FEITO
+
+7 - Fazendo o tiro do inimigo acertar o player e ser destruido
+	7.1 - Destruindo tiro e fazendo animação ao tocar no player - FEITO
+	7.2 - Destruindo o tiro do inimigo quando ele sair da room -  FEITO
+
+8 - Destruindo o inimigo quando ele levar um tiro
+	8.1 - Fazer o tiro do player tbém destruir o inimigo que colidir com ele - 
