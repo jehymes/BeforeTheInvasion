@@ -51,3 +51,9 @@
 
 9 - Ajustes parte 01
 	9.1 - Fazendo o inimigo ser destruido ao sair da tela - FEITO
+	9.2 - Aplicando melhorias nos backgrounds - 
+
+10 - Criando o Background
+	10.1 - Importando sprites - FEITO
+	10.2 - Criando efeito paralax - FEITO
+
