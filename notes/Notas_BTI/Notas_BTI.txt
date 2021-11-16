@@ -59,3 +59,8 @@
 	10.1 - Importando sprites - FEITO
 	10.2 - Criando efeito paralax - FEITO
 
+11 - Criando segundo inimigo
+	11.1 - Importando a sprite - FEITO
+	11.2 - Criando objeto - FEITO
+	11.3 - Fazendo o inimigo 2 herdar comportamentos do inimigo 1 - FEITO
+	11.4 - Fazendo ele mudar de direção ao chegar em uma posicação da room - 
