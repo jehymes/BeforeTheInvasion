@@ -7,18 +7,14 @@ yMin = -64;
 yMax = -1600
 */
 
-var inimigo = obj_inimigo1;
 
-//Criando inimigo com base no level
-var chance = random_range(0, level);
-
-//SE o valor da chance for maior que 2
-if(chance > 2){
-	 inimigo = obj_inimigo2;
+//Repetindo o mesmo código
+//Ação -> Criando o inimigo
+if(!instance_exists(obj_inimigo1)){
+	repeat(qtd_inimigos){
+		criar_inimigo();
+	}
 }
 
-//Ação -> Criar inimigos
-instance_create_layer(random_range(64, 1888), random_range(-64, -1600), "Inimigos", inimigo);
-
 //Reset
-alarm[0] = room_speed;
+alarm[0] = room_speed * 5;

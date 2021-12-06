@@ -77,6 +77,10 @@
 	13.1 - Fazer com que o controller crie inimigos de tempo em tempo - FEITO
 	13.2 - Fazendo posição x e y dos inimigos sejam aleatórias - FEITO
 	13.3 - Criando inimigos diferentes com base no level - FEITO
+	13.4 - Criando ONDAS de inimigos - FEITO
+	13.5 - Criando ONDAS Apenas se não tem mais inimigos na tela - FEITO
+	13.6 - Criando ONDAS de inimigos com base no level - FEITO
+	13.7 - Impedindo com que inimigos sejam criados no mesmo lugar - FEITO
 
 14 - Criando objeto controlador do jogo
 	14.1 - Criar objeto controlador - FEITO

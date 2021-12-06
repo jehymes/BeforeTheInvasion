@@ -9,6 +9,10 @@ Iniciando Sistemas de Pontos
 */
 pontos = 0;
 
+/*
+Valor da ONDA de inimigos
+*/
+qtd_inimigos = 10;
 
 /*
 Iniciando sistema de level
@@ -32,4 +36,21 @@ ganha_pontos = function(_pontos) {
 
 ganhando_level = function() {
 	level += 1;
+	qtd_inimigos += 5; 
+}
+
+//Metodo para gerar inimigos
+criar_inimigo = function() {
+	var inimigo = obj_inimigo1;
+
+	//Criando inimigo com base no level
+	var chance = random_range(0, level);
+
+	//SE o valor da chance for maior que 2
+	if(chance > 2){
+		 inimigo = obj_inimigo2;
+	}
+
+	//Ação -> Criar inimigos
+	instance_create_layer(random_range(64, 1888), random_range(-64, -1600), "Inimigos", inimigo);
 }
