@@ -63,4 +63,16 @@
 	11.1 - Importando a sprite - FEITO
 	11.2 - Criando objeto - FEITO
 	11.3 - Fazendo o inimigo 2 herdar comportamentos do inimigo 1 - FEITO
-	11.4 - Fazendo ele mudar de direção ao chegar em uma posicação da room - 
+	11.4 - Fazendo ele mudar de direção ao chegar em uma posicação da room - FEITO
+	11.5 - Fazendo o tiro ir na direção do player - FEITO
+	11.6 - Apontando a sprite para o player - FEITO
+	
+
+12 - Criando segundo tiro
+	12.1 - Importando a sprite - FEITO
+	12.2 - Criando o objeto - FEITO
+	12.3 - Indo na direção do player se ele existir - FEITO
+	
+13 - Criação procedural dos inimigos
+
+14 - Criando objeto controlador do jogo

@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"obj_tiro_inimigo2","path":"objects/obj_tiro_inimigo2/obj_tiro_inimigo2.yy",},"order":3,},
     {"id":{"name":"spr_background5","path":"sprites/spr_background5/spr_background5.yy",},"order":6,},
+    {"id":{"name":"spr_tiro_inimigo2","path":"sprites/spr_tiro_inimigo2/spr_tiro_inimigo2.yy",},"order":3,},
     {"id":{"name":"spr_brilho_tiro2","path":"sprites/spr_brilho_tiro2/spr_brilho_tiro2.yy",},"order":8,},
     {"id":{"name":"obj_tiroPlayer","path":"objects/obj_tiroPlayer/obj_tiroPlayer.yy",},"order":1,},
     {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},"order":3,},
@@ -69,7 +71,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "BeforeTheInvasion",
