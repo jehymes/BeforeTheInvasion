@@ -2,6 +2,9 @@
 
 vspeed = 2;
 
+//Pontuação por destruir inimigo
+pontoInimigo = 10;
+
 //Iniciando o alarme do tiro entre 1 e 3 seg 
 alarm[0] = random_range(1, 3) * room_speed;
 

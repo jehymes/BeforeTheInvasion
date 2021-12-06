@@ -4,6 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
+//Pontuação por destruir inimigo
+pontoInimigo = 15;
+
 //Variável de controle para movimento horizontal
 posso_mover = true;
 
