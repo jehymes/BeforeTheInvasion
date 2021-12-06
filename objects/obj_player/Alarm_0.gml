@@ -1,0 +1,1 @@
+/// @description Evento para delay de tiro

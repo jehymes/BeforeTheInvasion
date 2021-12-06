@@ -29,3 +29,17 @@ if(x < 64){ //Checagem da esquerda
 
 //Controle de tiro da nave
 atirando();
+
+if(keyboard_check_pressed(vk_up)){
+	if(level_tiro < 5){
+		level_tiro++;
+	}
+}
+
+if(keyboard_check_pressed(vk_down)){
+	if(level_tiro > 1){
+		level_tiro--;
+	}
+}
+
+show_debug_message(level_tiro);

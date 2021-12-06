@@ -95,3 +95,20 @@
 	16.1 - Iniciando variável level - FEITO
 	16.2 - Exibindo level - FEITO
 	16.3 - Ganhando level por pontos - FEITO
+
+17 - Deixar o tiro do player "automático"
+	17.1 - Criando evento do tiro - FEITO
+	17.2 - Definindo variavel para o tempo do tiro - FEITO
+
+18 - Dando leveis para os tiros do player
+	18.1 - Criando sistema de leveis para o tiro - FEITO
+	18.2 - Criando sistema de debug dos leveis - FEITO
+	18.3 - Fazendo o player dar o segundo tiro no level 2 - FEITO
+	
+19 - Criando o segundo tiro do player
+	19.1 - Importando a sprite - FEITO
+	19.2 - Criando o objeto tiro 2 player - FEITO
+	19.3 - Herdando ações do objeto tiro 01 - FEITO
+	19.4 - Ajustando efeitos do tiro 02 - FEITO
+	19.5 - Criando dois tiros por vez - FEITO
+	19.6 - FAzendo tiro mudar de direção - FEITO
