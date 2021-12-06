@@ -19,6 +19,7 @@
     {"id":{"name":"spr_impacto_tiro","path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},"order":0,},
     {"id":{"name":"obj_explosao1","path":"objects/obj_explosao1/obj_explosao1.yy",},"order":1,},
     {"id":{"name":"Notas_BTI","path":"notes/Notas_BTI/Notas_BTI.yy",},"order":0,},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":7,},
     {"id":{"name":"spr_background3","path":"sprites/spr_background3/spr_background3.yy",},"order":4,},
     {"id":{"name":"spr_background4","path":"sprites/spr_background4/spr_background4.yy",},"order":5,},
     {"id":{"name":"spr_inimigo1","path":"sprites/spr_inimigo1/spr_inimigo1.yy",},"order":0,},

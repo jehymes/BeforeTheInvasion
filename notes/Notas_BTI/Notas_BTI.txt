@@ -74,5 +74,8 @@
 	12.3 - Indo na direção do player se ele existir - FEITO
 	
 13 - Criação procedural dos inimigos
+	13.1 - Fazer com que o controller crie inimigos de tempo em tempo - FEITO
+	13.2 - Fazendo posição x e y dos inimigos sejam aleatórias - 
 
 14 - Criando objeto controlador do jogo
+	14.1 - Criar objeto controlador - FEITO
