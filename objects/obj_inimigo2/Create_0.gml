@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+chanceDrop = 30;
+
 //Pontuação por destruir inimigo
 pontoInimigo = 15;
 

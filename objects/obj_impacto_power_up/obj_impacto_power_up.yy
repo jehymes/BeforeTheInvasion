@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_inimigo2",
-    "path": "sprites/spr_inimigo2/spr_inimigo2.yy",
+    "name": "spr_power_up_get",
+    "path": "sprites/spr_power_up_get/spr_power_up_get.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_inimigo1",
-    "path": "objects/obj_inimigo1/obj_inimigo1.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,17 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Inimigos",
-    "path": "folders/Objects/Inimigos.yy",
+    "name": "Outros",
+    "path": "folders/Objects/Outros.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_inimigo2",
+  "name": "obj_impacto_power_up",
   "tags": [],
   "resourceType": "GMObject",
 }

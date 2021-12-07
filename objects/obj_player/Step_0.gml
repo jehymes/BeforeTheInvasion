@@ -29,32 +29,3 @@ if(x < 64){ //Checagem da esquerda
 
 //Controle de tiro da nave
 atirando();
-
-//Debug Leveis do Tiro
-if(keyboard_check_pressed(vk_up)){
-	if(level_tiro < 6){
-		level_tiro++;
-	}
-}
-
-if(keyboard_check_pressed(vk_down)){
-	if(level_tiro > 1){
-		level_tiro--;
-	}
-}
-
-//Debug espera do tiro
-if(keyboard_check(vk_right) && time_tiro < room_speed){
-	time_tiro *= 1.1;
-}
-
-if(keyboard_check(vk_left) && time_tiro > 10){
-	time_tiro *= 0.9;
-}
-
-if(level_tiro == 6){
-	time_tiro = room_speed;
-}
-
-show_debug_message(level_tiro);
-show_debug_message(time_tiro);

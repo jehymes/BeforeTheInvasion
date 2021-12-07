@@ -1,8 +1,10 @@
 /// @description Iniciando Objeto
+armorTime = 15;
 
 //Iniciando alarme
 //Alarme = Tempo
 alarm[0] = room_speed; //Ação realizada no -> Alarm 0
+alarm[1] = room_speed;
 
 /*
 Iniciando Sistemas de Pontos

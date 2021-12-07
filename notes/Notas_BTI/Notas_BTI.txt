@@ -111,4 +111,13 @@
 	19.3 - Herdando ações do objeto tiro 01 - FEITO
 	19.4 - Ajustando efeitos do tiro 02 - FEITO
 	19.5 - Criando dois tiros por vez - FEITO
-	19.6 - FAzendo tiro mudar de direção - FEITO
+	19.6 - Fazendo tiro mudar de direção - FEITO
+
+20 - PowerUps
+	20.1 - Criando a sprite do power up - FEITO
+	20.2 - Criando o objeto do power up - FEITO
+	20.3 - Criar chance de cada power up - FEITO
+	20.4 - Criar metodo upgrade no player - FEITO
+	20.5 - Dar o power up ao player - FEITO
+	20.6 - Destruir o item ao colidir com o player - FEITO
+	20.8 - Fazendo os inimigos terem a chance de dropar o power up - FEITO
