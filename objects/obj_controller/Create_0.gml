@@ -1,5 +1,5 @@
 /// @description Iniciando Objeto
-armorTime = 15;
+armorTime = 60;
 
 //Iniciando alarme
 //Alarme = Tempo

@@ -7,6 +7,10 @@ Tempo do Tiro		- 10% | 10 -> 18	//45%
 Level do Tiro		- 01  | 06 -> 6		//10%
 ------------------- PowerUps -------------------
 */
+MAX_VEL_NAVE = 10;
+MAX_TIME_TIRO = 9.01;
+MAX_LVL_TIRO = 6;
+
 
 speed_nave = 5;
 
@@ -15,7 +19,7 @@ time_tiro = room_speed;
 /*
 Iniciando sistema de level do tiro
 */
-level_tiro = 5;
+level_tiro = 1;
 
 atirando = function() {
 var fire = keyboard_check(vk_space);
@@ -119,10 +123,10 @@ upgrade = function(_chance) {
 	if(_chance >= 90) {
 		if(level_tiro < 6){
 			level_tiro++;
-			time_tiro = room_speed;
+			time_tiro = room_speed/1.5;
 		}
 	//SE o valor de chance for >= 45 e < 90 - PowerUp Velocidade da Nave
-	}else if(_chance >= 45 && _chance < 90) {
+	}else if(_chance >= 45) {
 		if(speed_nave < 10){
 			speed_nave += .5;
 		}

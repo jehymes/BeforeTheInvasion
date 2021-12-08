@@ -121,3 +121,13 @@
 	20.5 - Dar o power up ao player - FEITO
 	20.6 - Destruir o item ao colidir com o player - FEITO
 	20.8 - Fazendo os inimigos terem a chance de dropar o power up - FEITO
+	20.9 - Limitando tempo do tiro 06 - FEITO
+	20.10 - Destruindo instancias dos powerups - FEITO
+	20.11 - Fazendo o power up se mover pela tela - FEITO
+	20.12 - Escolhendo cor com base no power up - FEITO
+	20.13 - Inpedindo que o power up saia da tela - FEITO
+	20.14 - Fazendo o power up sumir após um tempo - FEITO
+
+21 - Escudo do player
+	
+	

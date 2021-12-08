@@ -25,9 +25,7 @@ atirando = function() {
 ///@method dropa_item(chance_drop_em_porcentagem)
 dropa_item = function(_chance) {
 	var valor = irandom(100);
-	if(obj_player.level_tiro < 6 || obj_player.time_tiro > 10 || obj_player.speed_nave < 10){
-		if(valor < _chance && y > 64) {
-			instance_create_layer(x, y, "Tiro", obj_power_up_default);
-		}
+	if(valor < _chance && y > 64) {
+		instance_create_layer(x, y, "Tiro", obj_power_up_default);
 	}
 }

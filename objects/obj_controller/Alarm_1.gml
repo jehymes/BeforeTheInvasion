@@ -6,7 +6,7 @@ if(obj_player.level_tiro == 6){
 	
 	if(armorTime == 0){
 		obj_player.level_tiro = 1;
-		armorTime = 15;
+		armorTime = 60;
 	}
 }
 
