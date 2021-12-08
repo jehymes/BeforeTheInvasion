@@ -129,5 +129,14 @@
 	20.14 - Fazendo o power up sumir após um tempo - FEITO
 
 21 - Escudo do player
-	
-	
+	21.1 - Importar a sprite - FEITO
+	21.2 - Criando o sprite - FEITO
+	21.3 - Fazendo o player criar o escudo ao apertar a letra E - FEITO
+	21.4 - Criar layer para escudo - FEITO
+	21.5 - Fazendo escudo ficar na mesma posição do player - FEITO
+	21.6 - Corrigindo delay do escudo - FEITO
+	21.7 - Destruindo os tiros e os inimigos - FEITO
+	21.8 - Deixando o escudo um pouco maior - FEITO
+	21.9 - Animações para o escudo - FEITO
+	21.10 - Perder escudo após determinado tempo - FEITO
+	22.11 - Melhorando efeito do escudo - 

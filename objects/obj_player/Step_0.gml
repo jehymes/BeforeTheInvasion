@@ -1,14 +1,23 @@
 /// @description Player Controller
 
-//Controlle direcional da nave
-var up, down, left, right;
+//Controles da nave
+var up, down, left, right, escudo;
 up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
 left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
+escudo = keyboard_check_pressed(ord("E"));
 
 y += (down - up) * speed_nave;
 x += (right - left) * speed_nave;
+
+//-----------------------------------------------------
+//Escudo da Nave
+if(escudo){
+	var shield = instance_create_layer(x, y, "Shield", obj_escudo);
+	shield.alvo = id;
+}
+
 
 //-----------------------------------------------------
 
