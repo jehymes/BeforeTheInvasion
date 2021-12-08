@@ -4,13 +4,12 @@
 ------------------- PowerUps -------------------
 Velocidade da Nave	- .05 | 10 -> 20	//45%
 Tempo do Tiro		- 10% | 10 -> 18	//45%
-Level do Tiro		- 01  | 06 -> 6		//10%
+Level do Tiro		- 01  | 06 -> 6		//9%
+Life				- 01  | 01 -> 1
 ------------------- PowerUps -------------------
 */
-MAX_VEL_NAVE = 10;
-MAX_TIME_TIRO = 9.01;
-MAX_LVL_TIRO = 6;
-
+//Sistema de vida
+life = 3
 
 speed_nave = 5;
 
@@ -119,8 +118,15 @@ angle = function(_angle, _obj) {
 
 ///@method upgrade(chance)
 upgrade = function(_chance) {
+	//SE o valor de chance for >= 99 - PowerUp Life
+	if(_chance > 99) {
+		if(life > 0){
+			control_life(+1)
+		}
 	//SE o valor de chance for > 90 - PowerUp Level do Tiro
-	if(_chance >= 90) {
+	}else
+	
+	if(_chance >= 90 && _chance < 99) {
 		if(level_tiro < 6){
 			level_tiro++;
 			time_tiro = room_speed/1.5;
@@ -135,5 +141,14 @@ upgrade = function(_chance) {
 		if(time_tiro > 10){
 			time_tiro *= 0.9;
 		}
+	}
+}
+
+///@method control_life(+numeroAumenta_-numeroDiminui);
+control_life = function(_valor){
+	if(life > 0){
+		life += _valor;
+	}else{
+		instance_destroy();
 	}
 }

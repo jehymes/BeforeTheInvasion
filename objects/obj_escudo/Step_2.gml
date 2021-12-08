@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Destruindo caso não tenha um alvo
-if(!alvo){
+if(!alvo || !instance_exists(alvo)){
 	instance_destroy();
 }
 
