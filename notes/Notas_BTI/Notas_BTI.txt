@@ -151,5 +151,5 @@
 	23.2 - Perdendo vida ao receber dano - FEITO
 	23.4 - Fazendo player desaparecer ao perder todas as vidas - FEITO
 	23.5 - Fazendo o player explodir ao morrer - FEITO
-	23.6 - Exibindo life do player - 
-	23.X - Fazendo game over do player - 
+	23.6 - Exibindo life do player - FEITO
+	23.7 - Fazendo game over do player - 

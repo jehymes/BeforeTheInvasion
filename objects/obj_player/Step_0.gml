@@ -38,5 +38,3 @@ if(x < 64){ //Checagem da esquerda
 
 //Controle de tiro da nave
 atirando();
-
-show_debug_message(life);
