@@ -33,7 +33,7 @@ proximo_level = 100;
 //Criando metodo para ganhar pontos
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos) {
-	pontos += _pontos;
+	pontos += _pontos * level;
 	
 	//Ganhando level SE os pontos forem maior que o próximo level
 	if(pontos > proximo_level){

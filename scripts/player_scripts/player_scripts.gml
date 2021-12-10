@@ -143,34 +143,48 @@ var fire2 = mouse_check_button(mb_left);
 	
 ///@method upgrade(chance)	
 function upgrade(_chance){
+	var MAX_LIFE = 5;
+	var MAX_SHIELD = 5;
 
 	var life_shield = choose(0, 1) 
 	//SE o valor de chance for >= 99 - PowerUp Life
 	if(_chance > 99) {
-		if(obj_player.life > 0 && life_shield == 0){
-			show_message("Power Up Life")
+		if((obj_player.life > 0 && obj_player.life != MAX_LIFE) && life_shield == 0){
 			control_life(+1)
-		}else if(life_shield == 1) {
-			show_message("Power Up Escudo")
+		}else if(life_shield == 1 && obj_player.shield != MAX_SHIELD) {
 			obj_player.shield++;
+		}else{
+			if(instance_exists(obj_controller)){
+				obj_controller.ganha_pontos(30);
+			}
 		}
 	//SE o valor de chance for > 90 - PowerUp Level do Tiro
-	}else
-	
-	if(_chance >= 90 && _chance < 99) {
+	}else if(_chance >= 90 && _chance < 99) {
 		if(obj_player.shoot_lvl < 6){
 			obj_player.shoot_lvl++;
 			obj_player.shoot = room_speed/1.5;
+		}else{
+			if(instance_exists(obj_controller)){
+				obj_controller.ganha_pontos(10);
+			}
 		}
 	//SE o valor de chance for >= 45 e < 90 - PowerUp Velocidade da Nave
 	}else if(_chance >= 45) {
 		if(obj_player.speed_nave < 10){
 			obj_player.speed_nave += .5;
+		}else{
+			if(instance_exists(obj_controller)){
+				obj_controller.ganha_pontos(5);
+			}
 		}
 	//SE o valor de chance for < 45 - PowerUp Tempo do Tiro
 	}else if(_chance < 45) {
 		if(obj_player.shoot > 10){
 			obj_player.shoot *= 0.9;
+		}else{
+			if(instance_exists(obj_controller)){
+				obj_controller.ganha_pontos(5);
+			}
 		}
 	}
 }

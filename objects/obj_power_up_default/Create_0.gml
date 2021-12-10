@@ -1,6 +1,6 @@
 /// @description Insert description here
-
 cor = c_grey;
+especial_power = c_fuchsia;
 
 //Criando uma chance entre 0 e 100 para decidir qual vai ser o upgrade
 chance = irandom(100); //Chance vai ficar entre 0 e 100;
@@ -14,7 +14,7 @@ alarm[0] = room_speed;
 //Cor para powerUp
 //SE o valor de chance for > 99 - PowerUp Life/Escudo
 if(chance > 99) {
-	cor = choose(c_green, c_gray, c_lime, c_orange, c_navy, c_olive);
+	cor = especial_power;
 //SE o valor de chance for > 90 - PowerUp Level do Tiro
 }else if(chance >= 90 && chance <= 99) {
 	cor = c_red;
