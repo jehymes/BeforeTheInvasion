@@ -141,7 +141,8 @@
 	21.9 - Animações para o escudo - FEITO
 	21.10 - Perder escudo após determinado tempo - FEITO
 	22.11 - Melhorando efeito do escudo - FEITO
-	22.12 - Exibindo escudos na tela - 
+	22.12 - Limitando quantidade de escudos do player - FEITO
+	22.13 - Exibindo escudos na tela - FEITO
 
 22 - Ajustes Gerais
 	22.1 - Arrumando as mascaras de colisão - FEITO

@@ -22,7 +22,7 @@ qtd_inimigos = 10;
 /*
 Iniciando sistema de level
 */
-level = 10;
+level = 1;
 
 //Quantos pontos preciso para o próximo level
 proximo_level = 100;

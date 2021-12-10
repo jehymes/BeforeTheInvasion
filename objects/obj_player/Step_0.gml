@@ -13,9 +13,10 @@ x += (right - left) * speed_nave;
 
 //-----------------------------------------------------
 //Escudo da Nave
-if(escudo){
+if(escudo && qtd_escudo > 0){
 	var shield = instance_create_layer(x, y, "Shield", obj_escudo);
 	shield.alvo = id;
+	qtd_escudo--;
 }
 
 

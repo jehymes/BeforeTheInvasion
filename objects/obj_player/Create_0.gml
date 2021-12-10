@@ -9,7 +9,10 @@ Life				- 01  | 01 -> 1
 ------------------- PowerUps -------------------
 */
 //Sistema de vida
-life = 3
+life = 3;
+
+//Escudo
+qtd_escudo = 3;
 
 speed_nave = 5;
 
@@ -118,10 +121,13 @@ angle = function(_angle, _obj) {
 
 ///@method upgrade(chance)
 upgrade = function(_chance) {
+	var life_shield = choose(0, 1) 
 	//SE o valor de chance for >= 99 - PowerUp Life
 	if(_chance > 99) {
-		if(life > 0){
+		if(life > 0 && life_shield == 0){
 			control_life(+1)
+		}else if(life_shield == 1) {
+			qtd_escudo++;
 		}
 	//SE o valor de chance for > 90 - PowerUp Level do Tiro
 	}else

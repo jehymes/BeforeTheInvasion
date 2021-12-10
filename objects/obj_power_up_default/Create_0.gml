@@ -12,9 +12,9 @@ direction = irandom(359);
 alarm[0] = room_speed;
 
 //Cor para powerUp
-//SE o valor de chance for > 99 - PowerUp Life
+//SE o valor de chance for > 99 - PowerUp Life/Escudo
 if(chance > 99) {
-	cor = c_green;
+	cor = choose(c_green, c_gray, c_lime, c_orange, c_navy, c_olive);
 //SE o valor de chance for > 90 - PowerUp Level do Tiro
 }else if(chance >= 90 && chance <= 99) {
 	cor = c_red;
