@@ -141,10 +141,13 @@
 	21.9 - Animações para o escudo - FEITO
 	21.10 - Perder escudo após determinado tempo - FEITO
 	22.11 - Melhorando efeito do escudo - FEITO
+	22.12 - Exibindo escudos na tela - 
 
 22 - Ajustes Gerais
 	22.1 - Arrumando as mascaras de colisão - FEITO
 	22.2 - Colisão entre o player e os inimigos - FEITO
+	22.3 - Ajustando transparencia do power up - FEITO
+	22.4 - Melhorando a dispersão dos inimigos conforme o level - FEITO
 	
 23 - Fazendo o life do player
 	23.1 - Perdendo vida ao tocar inimigo - FEITO
@@ -152,4 +155,6 @@
 	23.4 - Fazendo player desaparecer ao perder todas as vidas - FEITO
 	23.5 - Fazendo o player explodir ao morrer - FEITO
 	23.6 - Exibindo life do player - FEITO
-	23.7 - Fazendo game over do player - 
+	23.7 - Fazendo game over do player - FEITO
+
+24 - Screenshake

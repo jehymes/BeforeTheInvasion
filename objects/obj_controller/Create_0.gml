@@ -1,6 +1,9 @@
 /// @description Iniciando Objeto
 armorTime = 60;
 
+//Pause
+flag_pause = noone;
+
 //Iniciando alarme
 //Alarme = Tempo
 alarm[0] = room_speed; //Ação realizada no -> Alarm 0
@@ -19,7 +22,7 @@ qtd_inimigos = 10;
 /*
 Iniciando sistema de level
 */
-level = 1;
+level = 10;
 
 //Quantos pontos preciso para o próximo level
 proximo_level = 100;
@@ -54,5 +57,8 @@ criar_inimigo = function() {
 	}
 
 	//Ação -> Criar inimigos
-	instance_create_layer(random_range(64, 1888), random_range(-64, -1600), "Inimigos", inimigo);
+	instance_create_layer(random_range(64, 1888), random_range(-64, -1600 - (level * 100)), "Inimigos", inimigo);
 }
+
+//Variável de controle para o game over
+game_over_seq = noone;
