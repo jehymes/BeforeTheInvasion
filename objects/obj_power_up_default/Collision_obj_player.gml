@@ -1,7 +1,7 @@
 /// @description Colisão com o player
 
 //Executando o upgrade do player
-other.upgrade(chance);
+upgrade(chance);
 
 //Destruindo
 instance_destroy();

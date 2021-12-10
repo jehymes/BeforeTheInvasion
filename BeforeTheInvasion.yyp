@@ -10,6 +10,7 @@
     {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},"order":3,},
     {"id":{"name":"spr_tiroPlayer1","path":"sprites/spr_tiroPlayer1/spr_tiroPlayer1.yy",},"order":1,},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},"order":10,},
+    {"id":{"name":"player_scripts","path":"scripts/player_scripts/player_scripts.yy",},"order":1,},
     {"id":{"name":"obj_impacto_tiro","path":"objects/obj_impacto_tiro/obj_impacto_tiro.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_power_up_default","path":"objects/obj_power_up_default/obj_power_up_default.yy",},"order":0,},

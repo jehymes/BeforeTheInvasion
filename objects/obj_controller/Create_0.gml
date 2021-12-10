@@ -1,6 +1,9 @@
 /// @description Iniciando Objeto
 armorTime = 60;
 
+//Randomizando o jogo
+randomize();
+
 //Pause
 flag_pause = noone;
 

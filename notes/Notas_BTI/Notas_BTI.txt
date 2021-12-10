@@ -149,6 +149,7 @@
 	22.2 - Colisão entre o player e os inimigos - FEITO
 	22.3 - Ajustando transparencia do power up - FEITO
 	22.4 - Melhorando a dispersão dos inimigos conforme o level - FEITO
+	22.5 - Randomizando o jogo - 
 	
 23 - Fazendo o life do player
 	23.1 - Perdendo vida ao tocar inimigo - FEITO

@@ -7,7 +7,7 @@
 //draw_text(20, 40, "Level: "+ string(level));
 
 if(instance_exists(obj_player)){
-	if(obj_player.level_tiro == 6) {
+	if(obj_player.shoot_lvl == 6) {
 		draw_text(room_width/3, 20, "Armor End");
 		draw_text(660, 40, armorTime);
 	}

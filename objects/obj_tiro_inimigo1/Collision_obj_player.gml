@@ -5,4 +5,4 @@
 instance_destroy();
 
 //Tirando vida do player
-other.control_life(-1);
+control_life(-1);

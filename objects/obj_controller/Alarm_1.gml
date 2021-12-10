@@ -2,11 +2,11 @@
 
 //Ação
 if(instance_exists(obj_player)){
-	if(obj_player.level_tiro == 6){
+	if(obj_player.shoot_lvl == 6){
 		armorTime--;
 	
 		if(armorTime == 0){
-			obj_player.level_tiro = 1;
+			obj_player.shoot_lvl = 1;
 			armorTime = 60;
 		}
 	}
