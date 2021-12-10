@@ -159,3 +159,9 @@
 	23.7 - Fazendo game over do player - FEITO
 
 24 - Screenshake
+	24.1 - Criar um objeto para fazer o screenshake - FEITO
+	24.2 - Destruindo screeshake depois de um tempo - FEITO
+	24.3 - Garantindo que ao se destruir a posição do view volte ao original - FEITO
+	24.4 - Criando screenshake sempre que destruir um inimigo - FEITO
+	24.5 - Criando screenshake sempre que nave for atingida - FEITO
+	24.6 - Criando função para todos utilizarem - FEITO

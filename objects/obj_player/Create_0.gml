@@ -152,9 +152,14 @@ upgrade = function(_chance) {
 
 ///@method control_life(+numeroAumenta_-numeroDiminui);
 control_life = function(_valor){
+	if(_valor < 0){
+		screenshake(25)
+	}	
+	
 	if(life > 0){
 		life += _valor;
 	}else{
 		instance_destroy();
+		screenshake(80)
 	}
 }

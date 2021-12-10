@@ -3,3 +3,6 @@
 
 //Se destruindo
 instance_destroy();
+
+//Shake
+screenshake(5);
