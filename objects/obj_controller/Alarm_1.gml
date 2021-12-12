@@ -6,7 +6,8 @@ if(instance_exists(obj_player)){
 		armorTime--;
 	
 		if(armorTime == 0){
-			obj_player.shoot_lvl = 1;
+			obj_player.shoot_lvl = 3;
+			obj_player.shoot = room_speed/1.5;
 			armorTime = 60;
 		}
 	}

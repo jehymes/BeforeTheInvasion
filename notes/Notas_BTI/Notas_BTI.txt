@@ -149,7 +149,10 @@
 	22.2 - Colisão entre o player e os inimigos - FEITO
 	22.3 - Ajustando transparencia do power up - FEITO
 	22.4 - Melhorando a dispersão dos inimigos conforme o level - FEITO
-	22.5 - Randomizando o jogo - 
+	22.5 - Randomizando o jogo - FEITO
+	22.6 - Organizando scripts para player - FEITO
+	22.7 - Impedindo que o player crie mais de um escudo por vez - FEITO
+	22.8 - Impedindo que o player leve dano quando estiver com o escudo - FEITO
 	
 23 - Fazendo o life do player
 	23.1 - Perdendo vida ao tocar inimigo - FEITO
@@ -166,3 +169,33 @@
 	24.4 - Criando screenshake sempre que destruir um inimigo - FEITO
 	24.5 - Criando screenshake sempre que nave for atingida - FEITO
 	24.6 - Criando função para todos utilizarem - FEITO
+
+25 - BOSS
+	25.1 - Importando as sprites do boss - FEITO
+	25.2 - Criando sprite do boss - FEITO
+	25.3 - Criando primeiro estado do boss - FEITO
+	25.4 - Fazendo trocar de estado - FEITO
+	25.6 - Fazendo boss dar o tiro 1 - FEITO
+	25.7 - Fazendo o boss se mover - FEITO
+	25.8 - Criando segundo estado do boss - FEITO
+	25.9 - Criando terceiro estado do boss - FEITO
+	25.10 - Iniciando a variável da vida - FEITO
+	25.11 - Exibindo vida do BOSS - FEITO
+	25.12 - Fazendo o boss tomar o tiro - FEITO
+	25.13 - Criando o quarto estado do boss - FEITO
+	25.14 - Criando objeto minion do boss - FEITO
+	25.15 - Criando o tiro do minion do boss - FEITO
+	25.16 - Fazendo o minion atirar - FEITO
+	25.17 - Fazendo o tiro do miniom ir na direção do boss - FEITO
+	25.18 - Fazendo o tiro do miniom recuperar 5 de vida do boss - FEITO
+	25.19 - Fazendo os minios levarem dano(perdendo 1 de vida) - FEITO
+	25.20 - Dando 10 de vuda para o minion - FEITO
+	25.21 - Fazendo o minion morrer - FEITO
+	25.22 - Criando explosão ao morrer - FEITO
+	25.23 - Melhorando feedback para player - FEITO
+	25.24 - Alterando os efeitos do minion - FEITO
+	25.25 - Fazendo boss criar os minions ao entrar no estado 4 - 
+	
+	
+26 - Animação da chegada do boss
+	

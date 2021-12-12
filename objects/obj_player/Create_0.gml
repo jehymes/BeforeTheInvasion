@@ -14,5 +14,6 @@ shield = noone;
 speed_nave = noone;
 shoot = noone;
 shoot_lvl = noone
+my_shield = noone;
 
 create_player(3,3,5,room_speed, 1);

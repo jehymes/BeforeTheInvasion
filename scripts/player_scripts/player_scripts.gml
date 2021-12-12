@@ -35,9 +35,13 @@ function player_controller(){
 	//-----------------------------------------------------
 	//Escudo da Nave
 	if(escudo || escudo_mouse && obj_player.shield > 0){
-		var shield = instance_create_layer(x, y, "Shield", obj_escudo);
-		shield.alvo = id;
-		obj_player.shield--;
+		if(!obj_player.my_shield){
+			var shield = instance_create_layer(x, y, "Shield", obj_escudo);
+			shield.alvo = id;
+			obj_player.my_shield = shield;
+		
+			obj_player.shield--;
+		}
 	}
 
 }
@@ -162,7 +166,6 @@ function upgrade(_chance){
 	}else if(_chance >= 90 && _chance < 99) {
 		if(obj_player.shoot_lvl < 6){
 			obj_player.shoot_lvl++;
-			obj_player.shoot = room_speed/1.5;
 		}else{
 			if(instance_exists(obj_controller)){
 				obj_controller.ganha_pontos(10);
@@ -191,14 +194,16 @@ function upgrade(_chance){
 	
 ///@method control_life(+numeroAumenta_-numeroDiminui);
 function control_life(_valor){
-	if(_valor < 0){
-		screenshake(25)
-	}	
+	if(!obj_player.my_shield){
+		if(_valor < 0){
+			screenshake(25)
+		}	
 	
-	if(obj_player.life > 0){
-		obj_player.life += _valor;
-	}else{
-		instance_destroy(obj_player.id, true);
-		screenshake(80)
+		if(obj_player.life > 0){
+			obj_player.life += _valor;
+		}else{
+			instance_destroy(obj_player.id, true);
+			screenshake(80)
+		}
 	}
 }
