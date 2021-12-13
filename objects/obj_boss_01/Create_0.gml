@@ -10,7 +10,7 @@
 */
 
 //Iniciando o sistema de vida
-vida_max = 2000;
+vida_max = 1;
 vida_atual = vida_max;
 
 //Espera para o próximo tiro.

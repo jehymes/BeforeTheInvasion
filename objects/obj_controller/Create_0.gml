@@ -28,7 +28,11 @@ Iniciando sistema de level
 level = 1;
 
 //Quantos pontos preciso para o próximo level
-proximo_level = 100;
+//proximo_level = 100;
+proximo_level = 1;
+
+//Flag para criar boss
+criar_boss = true;
 
 //Criando metodo para ganhar pontos
 ///@method ganha_pontos(pontos)

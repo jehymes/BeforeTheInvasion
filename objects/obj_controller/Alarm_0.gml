@@ -11,8 +11,17 @@ yMax = -1600
 //Repetindo o mesmo código
 //Ação -> Criando o inimigo
 if(!instance_exists(obj_inimigo1)){
-	repeat(qtd_inimigos){
-		criar_inimigo();
+	
+	var repetir = qtd_inimigos * level; 
+	if(level < 10){
+		repeat(repetir){
+			criar_inimigo();
+		}
+	}else{
+		if(criar_boss){
+			layer_sequence_create("Boss_Entrada", 960, 540, sq_boss_entrada);
+			criar_boss = false;
+		}
 	}
 }
 

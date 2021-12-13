@@ -194,8 +194,13 @@
 	25.22 - Criando explosão ao morrer - FEITO
 	25.23 - Melhorando feedback para player - FEITO
 	25.24 - Alterando os efeitos do minion - FEITO
-	25.25 - Fazendo boss criar os minions ao entrar no estado 4 - 
+	25.25 - Fazendo boss criar os minions ao entrar no estado 4 - FEITO
 	
 	
 26 - Animação da chegada do boss
-	
+	26.1 - Importando as sprites - FEITO
+	26.2 - Criando a animação - FEITO
+	26.3 - Destruindo a sequencia após o final da animação - FEITO
+	26.4 - Criando Boss após destruir sequencia - FEITO
+	26.5 - Animação da morte do boss - FEITO
+	26.6 - Fazendo o boss criar animação quando ele morrer - FEITO
