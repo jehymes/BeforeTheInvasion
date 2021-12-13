@@ -204,3 +204,24 @@
 	26.4 - Criando Boss após destruir sequencia - FEITO
 	26.5 - Animação da morte do boss - FEITO
 	26.6 - Fazendo o boss criar animação quando ele morrer - FEITO
+	
+27 - Criando animação de termino de level do player
+	27.1 - Criar animação - FEITO
+	27.2 - Executar animação ao final da animação de morte do boss - FEITO
+	27.3 - Destruir o player no controller - FEITO
+	
+28 - Criar a tela inicial do jogo
+	28.1 - Criar a room da tela inicial - FEITO
+	28.2 - Criar os botões - FEITO
+
+29 - Criar a transição
+	29.1 - Criando objeto de transição - FEITO
+	29.2 - Fazendo o objeto escurecer a tela - FEITO
+	29.3 - Fazendo ele mudar de room depois que a tela estiver preta - FEITO
+	29.4 - Clicando no botão e instanciando o objeto transição - FEITO
+
+29 - Criar a tela de pontuação ao final do jogo
+	29.1 - Inicializando variáveis globais - FEITO
+	29.2 - Criando um sistema de pontos que guarda as pontuações - FEITO
+	29.3 - Debug para ver as varoáveis globais - FEITO
+	29.4 - Criando transição para tela inicial - 

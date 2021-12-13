@@ -207,3 +207,14 @@ function control_life(_valor){
 		}
 	}
 }
+	
+///@method ani_end_level()
+function ani_end_level() {
+	if(instance_exists(obj_player)){
+		layer_sequence_create("Sequences", obj_player.x, obj_player.y, sq_level_end);
+		instance_destroy(obj_player, false);
+		if(instance_exists(obj_controller)){
+			obj_controller.level_complete = true;
+		}
+	}
+}

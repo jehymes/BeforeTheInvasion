@@ -11,10 +11,8 @@ yMax = -1600
 //Repetindo o mesmo código
 //Ação -> Criando o inimigo
 if(!instance_exists(obj_inimigo1)){
-	
-	var repetir = qtd_inimigos * level; 
 	if(level < 10){
-		repeat(repetir){
+		repeat(qtd_inimigos){
 			criar_inimigo();
 		}
 	}else{

@@ -1,0 +1,1 @@
+//Exibindo variáveis globais

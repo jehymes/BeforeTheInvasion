@@ -3,3 +3,7 @@
 
 //Criando animação de morte
 layer_sequence_create("Boss_Morte", x, room_height/2, sq_boss_morte);
+
+global.total_inimigos++;
+
+ganha_pontos(200);

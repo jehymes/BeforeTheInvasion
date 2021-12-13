@@ -13,3 +13,20 @@ function destroy_seq() {
 	//Criando o Boss
 	instance_create_layer(960,236, "BOSS", obj_boss_01);
 }
+
+///@method ganha_pontos(pontos)
+function ganha_pontos(_pontos) {
+	obj_controller.pontos += _pontos * obj_controller.level;
+	
+	//Ganhando level SE os pontos forem maior que o próximo level
+	if(obj_controller.pontos > obj_controller.proximo_level){
+		obj_controller.proximo_level *= 2;
+		obj_controller.ganhando_level();
+	}
+}
+	
+///@method transicao()
+function transicao() {
+	var _transicao = instance_create_layer(0,0,"Player", obj_transicao);
+	_transicao.destino = rm_inicio;
+}

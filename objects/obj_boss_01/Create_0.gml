@@ -10,7 +10,7 @@
 */
 
 //Iniciando o sistema de vida
-vida_max = 1;
+vida_max = 2000;
 vida_atual = vida_max;
 
 //Espera para o próximo tiro.
@@ -20,7 +20,6 @@ delay_state = room_speed * 10;
 wait_shoot = 0;
 wait_state = delay_state
 
-//actual_state = "estado 4";
 actual_state = choose("estado 1", "estado 2", "estado 3");
 
 //Flag para criar minions

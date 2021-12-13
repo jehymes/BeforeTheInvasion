@@ -13,7 +13,11 @@
     "resourceType": "KeyframeStore<MessageEventKeyframe>",
   },
   "moments": {
-    "Keyframes": [],
+    "Keyframes": [
+      {"id":"cfc6a472-f2b2-47f7-9b04-d12a012d2619","Key":599.9999,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+              "ani_end_level",
+            ],"resourceVersion":"1.0","resourceType":"MomentsEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MomentsEventKeyframe>",},
+    ],
     "resourceVersion": "1.0",
     "resourceType": "KeyframeStore<MomentsEventKeyframe>",
   },
