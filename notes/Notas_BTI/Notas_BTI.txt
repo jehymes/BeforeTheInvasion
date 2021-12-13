@@ -224,4 +224,12 @@
 	29.1 - Inicializando variáveis globais - FEITO
 	29.2 - Criando um sistema de pontos que guarda as pontuações - FEITO
 	29.3 - Debug para ver as varoáveis globais - FEITO
-	29.4 - Criando transição para tela inicial - 
+	29.4 - Criando transição para tela inicial - FEITO
+	29.5 - Mostrando pontos para jogador na room - FEITO
+
+30 - Criando os sons do jogo
+	
+
+X - Ajustes Gerais (Finalizações);
+	x.1 - Garantindo aleatoriedade do jogo - FEITO
+	x.2 - Ajustando nome do Jogo - FEITO
