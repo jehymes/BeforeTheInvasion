@@ -1,7 +1,7 @@
 /// @description Movendo inimigo para baixo
 
 //20% de dropar item
-chanceDrop = 20;
+chanceDrop = 25;
 
 vspeed = 2;
 
