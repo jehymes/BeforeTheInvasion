@@ -160,7 +160,7 @@ function upgrade(_chance){
 			obj_player.shield++;
 		}else{
 			if(instance_exists(obj_controller)){
-				obj_controller.ganha_pontos(30);
+				ganha_pontos(30);
 			}
 		}
 	//SE o valor de chance for > 90 - PowerUp Level do Tiro
@@ -169,7 +169,7 @@ function upgrade(_chance){
 			obj_player.shoot_lvl++;
 		}else{
 			if(instance_exists(obj_controller)){
-				obj_controller.ganha_pontos(10);
+				ganha_pontos(10);
 			}
 		}
 	//SE o valor de chance for >= 45 e < 90 - PowerUp Velocidade da Nave
@@ -178,7 +178,7 @@ function upgrade(_chance){
 			obj_player.speed_nave += .5;
 		}else{
 			if(instance_exists(obj_controller)){
-				obj_controller.ganha_pontos(5);
+				ganha_pontos(5);
 			}
 		}
 	//SE o valor de chance for < 45 - PowerUp Tempo do Tiro
@@ -187,7 +187,7 @@ function upgrade(_chance){
 			obj_player.shoot *= 0.9;
 		}else{
 			if(instance_exists(obj_controller)){
-				obj_controller.ganha_pontos(5);
+				ganha_pontos(5);
 			}
 		}
 	}

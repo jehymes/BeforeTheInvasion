@@ -43,6 +43,7 @@
     {"id":{"name":"sfx_explosion","path":"sounds/sfx_explosion/sfx_explosion.yy",},"order":0,},
     {"id":{"name":"sfx_laser2","path":"sounds/sfx_laser2/sfx_laser2.yy",},"order":2,},
     {"id":{"name":"spr_inimigo2","path":"sprites/spr_inimigo2/spr_inimigo2.yy",},"order":2,},
+    {"id":{"name":"fnt_pontos_gui","path":"fonts/fnt_pontos_gui/fnt_pontos_gui.yy",},"order":2,},
     {"id":{"name":"obj_tiro_minion","path":"objects/obj_tiro_minion/obj_tiro_minion.yy",},"order":6,},
     {"id":{"name":"spr_tiro_inimigo1","path":"sprites/spr_tiro_inimigo1/spr_tiro_inimigo1.yy",},"order":1,},
     {"id":{"name":"obj_pontos","path":"objects/obj_pontos/obj_pontos.yy",},"order":8,},
