@@ -54,6 +54,7 @@ var fire2 = mouse_check_button(mb_left);
 
 	if((fire || fire2) && alarm[0] == -1){
 		alarm[0] = shoot;
+		audio_play_sound(sfx_laser2, 1, false);
 		switch(obj_player.shoot_lvl) {
 			case 1 : 
 				tiro1(sprite_height/3);

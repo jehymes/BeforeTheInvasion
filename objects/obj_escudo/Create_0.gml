@@ -8,3 +8,5 @@ image_yscale = 1.2;
 
 //Deixando meio transparante
 image_alpha = .7;
+
+audio_play_sound(sfx_shieldUp, 1, false);

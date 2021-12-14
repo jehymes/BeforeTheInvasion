@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+audio_play_sound(snd_boss_fight, 0, true);
 
 /*Estados
 	1 - Parado dando tiro 2
@@ -64,6 +65,7 @@ tiro_central = function(_ponta, _layer, _sprite, _time){
 	wait_shoot--;
 	if(wait_shoot <= 0){
 		instance_create_layer(x, y + _ponta, _layer, _sprite);
+		audio_play_sound(sfx_laser1, 1, false);
 		wait_shoot = delay_shoot * _time;
 	}
 }
@@ -77,6 +79,7 @@ tiro_central = function(_ponta, _layer, _sprite, _time){
 tiro_lateral = function(_x,_y,_layer,_sprite,_number,_time){
 	wait_shoot--;
 	if(wait_shoot <= 0){
+		audio_play_sound(sfx_laser1, 2, false);
 		switch(_number){
 			case 1 :
 				instance_create_layer(x - _x, y + _y, _layer, _sprite);
@@ -98,11 +101,13 @@ master_tiro = function(_x, _y, _ponta, _layer, _sprite01, _sprite02, _time1){
 	wait_shoot--;
 	
 	if(wait_shoot == delay_shoot){
+		audio_play_sound(sfx_laser1, 2, false);
 		instance_create_layer(x - _x, y + _y, _layer, _sprite02);
 		instance_create_layer(x + _x, y + _y, _layer, _sprite02);
 	}
 	
 	if(wait_shoot <= 0){
+		audio_play_sound(sfx_laser1, 2, false);
 		instance_create_layer(x, y + _ponta, _layer, _sprite01);
 		wait_shoot = delay_shoot * _time1;
 	}

@@ -5,3 +5,5 @@ image_xscale = 1.5;
 image_yscale = 1.5;
 
 cores = choose(c_lime, c_yellow, c_olive, c_red, c_aqua, c_red, c_fuchsia, c_purple);
+
+audio_play_sound(sfx_explosion, 2, false);

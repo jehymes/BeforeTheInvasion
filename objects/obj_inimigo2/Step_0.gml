@@ -9,11 +9,9 @@ event_inherited();
 if(y > room_height/3 && posso_mover){
 	//Checando em que lado estou na room
 	if(x > room_width/2){
-		//show_debug_message("Estou na direita!");
 		hspeed = -4;
 		posso_mover = false;
 	}else{
-		//show_debug_message("Estou na esquerda!");
 		hspeed = 4;
 		posso_mover = false;
 	}

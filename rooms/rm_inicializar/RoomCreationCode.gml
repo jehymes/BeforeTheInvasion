@@ -11,3 +11,5 @@ global.total_inimigos = 0;
 
 //Indo para a próxima room
 room_goto(rm_inicio);
+
+audio_group_load(sfx);

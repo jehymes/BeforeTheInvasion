@@ -5,3 +5,5 @@ upgrade(chance);
 
 //Destruindo
 instance_destroy();
+
+audio_play_sound(sfx_zap, 1, false);

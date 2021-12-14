@@ -6,3 +6,5 @@ instance_destroy();
 
 //Shake
 screenshake(5);
+
+audio_play_sound(sfx_twoTone, 0, false);

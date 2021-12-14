@@ -16,15 +16,12 @@ if(keyboard_check(vk_enter)){
 //Iniciando o estado 1
 switch(actual_state){
 	case "estado 1" :
-		//show_debug_message(actual_state);
 		estado_01();
 	break;
 	case "estado 2" :
-		//show_debug_message(actual_state);
 		estado_02();
 	break;
 	case "estado 3" :
-		//show_debug_message(actual_state);
 		estado_03();
 	break;
 	case "estado 4" :

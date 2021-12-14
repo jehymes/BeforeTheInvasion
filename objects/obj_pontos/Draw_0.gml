@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var _x = 250;
+var _x = 80;
 var _y = 0;
 var _pontos = pontos;
 draw_set_font(fnt_pontos);

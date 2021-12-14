@@ -30,6 +30,7 @@
 
 5 - Fazendo inimigo 01 atirar
 	5.1 - Importando sprite do tiro - FEITO
+	
 	5.2 - Criar objeto do tiro - FEITO
 	5.3 - Fazendo o tiro ir para baixo - FEITO
 	5.4 - Alinhando tiro com inimigo - FEITO
@@ -228,8 +229,22 @@
 	29.5 - Mostrando pontos para jogador na room - FEITO
 
 30 - Criando os sons do jogo
-	
+	30.1 - Importando sons do jogo - FEITO
+	30.2 - Adicionando sfx de explosão - FEITO
+	30.3 - Adicionando sfx de tiro do player - FEITO
+	30.4 - Adicionando sfx de tiro do inimigo - FEITO
+	30.5 - Adicionando sfx de tiro do Boss - FEITO
+	30.6 - Adicionando sfx ao acionar o escudo - FEITO
+	30.7 - Adicionando sfx ao perder o escudo - FEITO
+	30.8 - Adicionando sfx ao dar game over - FEITO
+	30.9 - Adicionando sfx ao colidir com escudo - FEITO
+	30.10 - Adicionando musica ao iniciar level - FEITO
+	30.11 - Adicionando musica ao Boss Fight - FEITO
 
-X - Ajustes Gerais (Finalizações);
-	x.1 - Garantindo aleatoriedade do jogo - FEITO
-	x.2 - Ajustando nome do Jogo - FEITO
+31 - Ajustes Gerais (Finalizações);
+	31.1 - Garantindo aleatoriedade do jogo - FEITO
+	31.2 - Ajustando nome do Jogo - FEITO
+	31.3 - Removendo debugs do jogo - FEITO
+
+32 - Testando Jogo
+	32.1 - Teste de Usuários para feedback - 

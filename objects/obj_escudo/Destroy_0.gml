@@ -3,3 +3,4 @@
 
 //Avisando que escudo não existe mais
 alvo.my_shield = noone;
+audio_play_sound(sfx_shieldDown, 1, false);

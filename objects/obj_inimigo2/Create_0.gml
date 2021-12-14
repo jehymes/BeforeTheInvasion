@@ -15,5 +15,6 @@ posso_mover = true;
 atirando = function() {
 	if(y >= 0 ) {
 		instance_create_layer(x - 3, y + sprite_height/3, "Tiro", obj_tiro_inimigo2);
+		audio_play_sound(sfx_laser1, 1, false);
 	}
 }
